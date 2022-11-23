@@ -8,6 +8,10 @@ html,body,#tout{
     flex-direction: column;
 }
 
+main{
+    flex:1
+}
+
 img{
     width: 100%;
 }
@@ -28,12 +32,10 @@ form{
 }
 
 footer{
+    height: 5%;
+    background-color: black;
+    color : white;
     width: 100%;
-    position:relative;
-    bottom: 0;
     text-align: center;
-}
-
-#contact{
-    position:absolute;
+    flex:0;
 }
