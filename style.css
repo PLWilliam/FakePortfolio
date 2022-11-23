@@ -26,7 +26,7 @@ form{
     flex-direction: column;
 }
 
-.test{
+.formulaire{
     display: flex;
     flex-direction: column;
 }
@@ -38,4 +38,38 @@ footer{
     width: 100%;
     text-align: center;
     flex:0;
+}
+
+
+@media (min-width: 768px){
+
+    
+    img{
+        width: 50%;
+        margin-top : 2%;
+        margin-bottom:2%;;
+        margin-left:25%;
+    }
+
+    form{
+        margin-left: 5%; 
+    }
+
+    iframe{
+        padding:5%;
+        padding-bottom: 2%;
+    }
+
+    input{
+        width: 30%;
+    }
+    
+    textarea{
+        width: 50%;
+    }
+
+    .bouton{
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
 }
