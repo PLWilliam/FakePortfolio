@@ -33,6 +33,7 @@ main{
 
 img{
     width: 100%;
+    border-radius: 5%;
 }
 
 iframe{
@@ -51,6 +52,7 @@ form{
 }
 
 footer{
+    padding: 10px;
     height: 15%;
     background-color: #212529;
     color : white;
@@ -58,7 +60,7 @@ footer{
     text-align: center;
 }
 
-footer p{
+footer div{
     margin-bottom: 5px;
 }
 
@@ -79,6 +81,8 @@ footer p{
 
 @media (min-width: 768px){
 
+
+    
     #mainindex{
         display: flex;
         width: 100%;
@@ -91,14 +95,22 @@ footer p{
         height: 50%;
     }
 
+    img{
+        border-radius: 50px;
+    }
+
+    footer p{
+        margin-bottom: 0;
+    }
+
     #maingallery{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #footerindex{
-        height: 10%;
+    footer{
+        height:8%
     }
 
     .textepasnul{
