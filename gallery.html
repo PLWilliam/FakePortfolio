@@ -7,13 +7,18 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" href="img/portfolio.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand">Menu</a>
+              <div class="logo">
+                <img  src="img/portfolio.png" alt="">
+              </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,13 +41,13 @@
 
     <main>
         <div class="imagenul">
-            <img src="img/pexels-karolina-grabowska-5208871.jpg" alt="" style="height: 250px;">
+            <img data-aos="zoom-in" src="img/pexels-karolina-grabowska-5208871.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit rem repellendus placeat veritatis? Consequuntur alias velit nulla cum fugiat numquam earum harum eveniet perspiciatis nesciunt, optio cupiditate quae possimus.</p>
+        <p style="text-align:center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit rem repellendus placeat veritatis? Consequuntur alias velit nulla cum fugiat numquam earum harum eveniet perspiciatis nesciunt, optio cupiditate quae possimus.</p>
         <div class="imagenul">
-            <img src="img/pexels-mister-mister-2442888.jpg" alt="" style="height: 250px;">
+            <img data-aos="zoom-in" src="img/pexels-mister-mister-2442888.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vitae dolores omnis molestias, numquam similique optio quia. Odio eos saepe, sequi delectus nulla ipsum cum, excepturi neque, ratione esse expedita.</p>
+        <p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vitae dolores omnis molestias, numquam similique optio quia. Odio eos saepe, sequi delectus nulla ipsum cum, excepturi neque, ratione esse expedita.</p>
 
     </main>
 
@@ -50,5 +55,8 @@
       <p>© DWWM 2022</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
