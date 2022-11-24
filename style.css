@@ -9,8 +9,27 @@ html,body,#tout{
 }
 
 main{
+    padding: 10px;
     flex:1;
+    background-color: black;
+    color: white;
 }
+
+.imgtext{
+    background-color: #212529;
+    color: white;
+    padding:10px;
+    border-radius: 5%;
+}
+
+.imgtext p{
+    margin-bottom: 0;
+}
+
+.spaceimgtext{
+    padding-bottom: 15px;
+}
+
 
 img{
     width: 100%;
@@ -32,13 +51,18 @@ form{
 }
 
 footer{
-    height: 5%;
-    background-color: black;
+    height: 15%;
+    background-color: #212529;
     color : white;
     width: 100%;
     text-align: center;
-    flex:0;
 }
+
+footer p{
+    margin-bottom: 5px;
+}
+
+
 
 .logo{
     width: 50px;
@@ -48,15 +72,47 @@ footer{
     align-items: center;
 }
 
+.textepasnul{
+    padding: 10px;
+
+}
 
 @media (min-width: 768px){
 
-    
-    img{
-        width: 50%;
-        margin-top : 2%;
-        margin-bottom:2%;;
-        margin-left:25%;
+    #mainindex{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    main img{
+        margin:2%;
+        width:50%;
+        height: 50%;
+    }
+
+    #maingallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footerindex{
+        height: 10%;
+    }
+
+    .textepasnul{
+        width:55%;
+    }
+
+    .spaceimgtext{
+        width:80%; 
+    }
+
+    .imgtext{
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
     }
 
     form{
@@ -92,7 +148,9 @@ footer{
         margin-left:0;
     }
 
-    main p{
-        text-align: left;
+    .textenul{
+        text-align: center;
     }
+
+
 }
