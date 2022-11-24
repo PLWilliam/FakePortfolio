@@ -91,15 +91,15 @@ footer div{
 
     main img{
         margin:2%;
-        width:50%;
-        height: 50%;
+        width:30%;
+        height: 45%;
     }
 
     img{
         border-radius: 50px;
     }
 
-    footer p{
+    footer{
         margin-bottom: 0;
     }
 
